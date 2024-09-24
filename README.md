@@ -78,14 +78,22 @@ Ensure you have the following installed on your system:
 weather-app/
 │
 ├── public/                     # Public folder
+│   ├── vite.svg                # SVG logo
 ├── src/                        # Source folder
-│   ├── components/             # Reusable components
-│   ├── services/               # API-related services
-│   ├── App.js                  # Main app component
-│   └── index.js                # App entry point
+│   ├── App.css                 # Main app CSS
+│   ├── App.jsx                 # Main app component
+│   ├── index.css               # App entry CSS
+│   ├── InfoBox.jsx             # Information components
+│   ├── SearchBox.jsx           # Search components
+│   ├── SearchBox.css           # Search components CSS
+│   ├── WeatherApp.jsx          # Main components
+│   └── main.jsx                # App entry point
 │
-├── .env                        # Environment variables
+├── .eslintrc.cjs               # Vite dependencies
+├── index.html                  # App entry point 
 ├── package.json                # Project dependencies
+├── package-lock.json           # Project dependencies
+├── vite.config.js              # Vite configuration file
 └── README.md                   # Project documentation
 ```
 
