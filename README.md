@@ -42,23 +42,25 @@ Ensure you have the following installed on your system:
    npm install
    ```
 
-4. Create a `.env` file in the root of the project and add your API key.
+4. Create a `.env` file in the root of the project and add your port number.
 
    ```
-   REACT_APP_API_KEY=your_openweather_api_key
+   PORT= PORT NUMBER 
    ```
 
-5. Start the development server.
+5. Go to WeatherApp.jsx and Change API Key.
+
+6. Start the development server.
 
    ```bash
    npm run dev 
    ```
 
-6. Open your browser and navigate to:
+7. Open your browser and navigate to:
 
    ```
    http://localhost:3000
-   ```
+    ```
 
 ## Usage
 
