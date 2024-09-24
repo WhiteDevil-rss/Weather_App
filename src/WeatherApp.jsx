@@ -20,10 +20,17 @@ export default function WeatherApp() {
         <div>
             <h2>Weather App by 
                 <br />
-                <a href="https://github.com/WhiteDevil-rss">Rajput Shivam Singh</a>
+                <h3>
+                    <a href="https://github.com/WhiteDevil-rss">Rajput Shivam Singh</a>
+                </h3>
             </h2>
             <SearchBox updateInfo={updateInfo} />
             <InfoBox info={weatherInfo} />
+            <h5>Powered by &nbsp;&nbsp;&nbsp;
+                <a href="https://openweathermap.org/api">
+                    <img src="https://brands.home-assistant.io/_/openweathermap/logo.png" alt="" width={"50rem"}/>
+                </a>
+            </h5>
         </div>
     );
 }
